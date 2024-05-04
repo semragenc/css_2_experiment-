@@ -1,0 +1,56 @@
+* {
+    background-color:burlywood;
+}/*universal evrensel seçici*/
+
+h1{
+    color:darkcyan ;
+}/*element seçici*/
+
+.box{
+    background-color: darkseagreen;
+    width: 120px;
+    height: 80px;
+    margin-top: 5px;
+    margin-left: 100px;
+    /*gri kutuyu yeşilin içinde ortalamak için;*/
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    padding-bottom: 30px;
+}/*class seçici*/
+
+.inside-box{
+    background-color:darksalmon ;
+    width: 120px;
+    height: 80px;
+}
+
+#container{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}/*ID seçici*/
+
+#articles > p {
+    font-size: 14pt;
+    color: darkslategrey;
+    font-style: italic;
+}/*Decendant seçici*/
+
+li :first-child > a{
+    color: white;
+}/*Decendant seçici*/
+
+li:nth-child(odd) {
+    color: aqua;
+}
+
+p:hover{
+    color:aqua;
+}
+
+a:visited{
+    color: yellow;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: wheat;
+        }
+
+    #box-one{
+        background-color: #7ABA78;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+    #box-two{
+        background-color: rgb(77, 144, 192, 0.5) !important;
+        width: 100px;
+        height: 100px;
+    }
+    #changeable{
+        background-color:red;
+        width: 100px;
+        height: 100px;
+    }
+    #changeable:hover{
+        background-color:blue;
+        width: 100px;
+        height: 100px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        background-color: cornsilk;
+    }
+    a:hover{
+        text-decoration: none;
+        color: cornflowerblue;
+        background-color: darkolivegreen;
+        margin: 10px;
+        transition: all 0.5s;
+    }
+    </style>
+</head>
+
+<!--Selector(seçici) Hiyerarşisi-->
+<!--ID selectors > Class selectors >Element selector-->
+
+
+<body>
+    <div id="box-one"></div>
+    <div style="position: absolute; top: 0; background-color: rgb(135, 7, 255, 0.5);" id="box-two"></div>
+    <div id="changeable"></div>
+    <a href="">Facebook</a>
+</body>
+</html>
